@@ -4,16 +4,16 @@ package boardgame;
 public class Piece {
 	
 	protected Position position;
-	private Board boarde;
+	private Board board;
 	
-	public Piece(Board boarde) {
-		this.boarde = boarde;
+	public Piece(Board board) {
+		this.board = board;
 		position = null;
 	}
 
 //Este método é de uso somente da camada referente, por isso vamos deixa-lo como protected
-	protected Board getBoarde() {
-		return boarde;
+	protected Board getBoard() {
+		return board;
 	}
 
 }
